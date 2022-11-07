@@ -3,12 +3,9 @@ package com.webmattic.example.beans;
 import com.webmattic.org.example.beans.FileOperations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import org.springframework.web.context.WebApplicationContext;
 
 @Component
-@Scope(WebApplicationContext.SCOPE_REQUEST)
 public class Sales {
 
     @Autowired
