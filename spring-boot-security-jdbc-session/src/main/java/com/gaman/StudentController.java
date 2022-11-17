@@ -10,4 +10,9 @@ public class StudentController {
     public Student getStudent() {
         return new Student(1, "test", "hyd");
     }
+
+    @GetMapping("/student/id")
+    public Student getStudentId() {
+        return new Student(1212, "test", "hyd");
+    }
 }
